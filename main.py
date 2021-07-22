@@ -95,10 +95,7 @@ NonUsable = "Non-UsableWorlds/"
 String = "StringWorlds/"
 File = input("Seed: ")+".udb"
 DISPLAY = pg.display.set_mode((1280,700), pg.RESIZABLE)
-##try:
 world = World("./Maps/WorldCreatorWorlds/"+File)
-##except:
-##    world = World("C:/Users/AtlasDisease/Documents/Python Projects/Main Projects/Creator/Maps/WorldCreatorWorlds/Flat.udb")
 
 while Game:
     for event in pg.event.get():
